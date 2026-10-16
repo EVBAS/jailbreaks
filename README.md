@@ -4,8 +4,8 @@
 
 **A curated collection of system prompts, persona locks, workspace policies, and agent operating specifications for frontier, open-weight, and free stealth models.**
 
-![Prompts](https://img.shields.io/badge/prompts-31-4c9f70)
-![Targets](https://img.shields.io/badge/targets-25%2B-2f6f9f)
+![Prompts](https://img.shields.io/badge/prompts-32-4c9f70)
+![Targets](https://img.shields.io/badge/targets-26%2B-2f6f9f)
 ![PRs Welcome](https://img.shields.io/badge/PRs-welcome-brightgreen?style=flat&logo=github)
 ![Stars](https://img.shields.io/github/stars/togg53192-cmd/jailbreaks?style=flat&logo=github&color=yellow)
 
@@ -15,7 +15,7 @@
 
 ## About
 
-A working collection of **31 prompts targeting 25+ models**, including complete system prompts, persona definitions, workspace policies, `AGENTS.md` files, configuration blocks, and Ollama Modelfiles.
+A working collection of **32 prompts targeting 26+ models**, including complete system prompts, persona definitions, workspace policies, `AGENTS.md` files, configuration blocks, and Ollama Modelfiles.
 
 Every file is intended to be complete and paste-ready. No summaries. No partial excerpts.
 
@@ -23,7 +23,7 @@ The collection covers:
 
 - Free stealth models available through OpenCode Zen
 - Open-weight families including GLM, DeepSeek, Kimi, Qwen, Gemma, and GPT-OSS
-- Closed frontier models including Claude, Gemini, Grok, and Mistral
+- Closed frontier models including Claude, OpenAI, Gemini, Grok, and Mistral
 - Coding-agent and workspace instruction formats
 - Ollama Modelfiles and harness-specific configuration
 
@@ -57,6 +57,12 @@ The collection covers:
 |---|---|---|
 | **Opus** | [opus v1.md](./opus%20v1.md) · [opus v2.md](./opus%20v2.md) | Conversational groundwork persona, v1 / v2 |
 | **Sonnet** | [sonnet v1.md](./sonnet%20v1.md) · [Sonnet v2.md](./Sonnet%20v2.md) | Writer's-room framing, v1 / v2 |
+
+### OpenAI
+
+| Model | File | Type |
+|---|---|---|
+| **GPT-5.6 Sol** | [gpt-5.6-sol.md](./gpt-5.6-sol.md) | Codex CLI `model_instructions_file` execution contract. **Untested** — design derived from published prompt techniques, no measured pass rate |
 
 ### Zhipu — GLM / ZCode
 
